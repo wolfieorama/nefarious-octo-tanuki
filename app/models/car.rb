@@ -5,4 +5,5 @@ class Car
   field :driver, type: String
   field :bought_on, type: Date
   field :location, :type => String
+  field :car_type, type: String
 end
