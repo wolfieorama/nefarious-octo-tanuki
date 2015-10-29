@@ -10,5 +10,20 @@
   <%= @car.reg_no %>
 </p>
 
+<p>
+  <strong>Driver:</strong>
+  <%= @car.driver %>
+</p>
+
+<p>
+  <strong>Bought on:</strong>
+  <%= @car.bought_on %>
+</p>
+
+<p>
+  <strong>location:</strong>
+  <%= @car.location %>
+</p>
+
 <%= link_to 'Edit', edit_car_path(@car) %> |
 <%= link_to 'Back', cars_path %>
