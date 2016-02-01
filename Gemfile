@@ -24,6 +24,9 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+gem 'trix'
+
+
 gem 'mongoid', '~> 4', github: 'mongoid/mongoid', branch: '4.0.0-stable'
 gem 'bson_ext'
 # Use ActiveModel has_secure_password
